@@ -1,0 +1,107 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>Bank Form</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<h1>
+   <ul><center>Loan Application Form</center></ul>
+</h1>
+
+<body>
+
+<div>
+  <form action="action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Middle</label>
+    <input type="text" id="lname" name="lastname">
+
+  <label for="fname">Last Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Address</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="fname">Occupation</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Employer</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="lname">Employer address</label>
+    <input type="text" id="lname" name="lastname">
+    
+  </form>
+
+    <h3>
+  <ul>Loan Type</ul></h3>
+
+  <select>
+  <h2>
+  <option value="none">None</option>
+  <option value="Commercial">Commercial</option>
+  <option value="Real Estate">Real Estate</option>
+  <option value="Personal">Personal</option>
+  <option value="Mortgage">Mortgage</option>
+  </h2>
+</select>
+</form>
+
+<form>
+  <h3>
+  <ul>Requested amount of loan</ul>
+  </h3>
+  <form>
+  <input type="radio" name="Time of Length" value="years" checked> 5 Years<br>
+  <input type="radio" name="Time of Length" value="years"> 15 Years<br>
+  <input type="radio" name="Time of Length" value="years"> 30 Years
+</form><br><br>
+
+  <form>
+  <h3>
+  <ul>Special Condition</ul>
+  </h3>
+
+  <input type="checkbox" name="Special Conditions" value="Special Conditions"> I have down Payment<br>
+  <input type="checkbox" name="Special Conditions" value="Special Conditions"> Out-of-state resident
+  <br>
+<input type="checkbox" name="Special Conditions" value="Special Conditions"> Married<br>
+<input type="checkbox" name="Special Conditions" value="Special Conditions"> Loan will be co-signed
+<br><br>
+
+Comment:<br /><br>
+  <textarea name="detail" id="detail" rows="7" cols="60" style="font-family:Arial, Helvetica, sans-serif"></textarea>
+  <br><br>
+  
+
+</select>
+
+</div>
+
+
+
+ <form>
+  <label>Enter a URL:</label><br>
+  <input type="url" required />
+  <br />
+  <br />
+  <label>Enter an email address:</label><br>
+  <input type="email" required />
+  </form>
+<br>
+Phone:
+  <input type="text" name="cell phone"><br>
+  <br>
+
+  
+
+
+ <input type="submit" value="Submit">
+
+
+
+</body>
+</html>
